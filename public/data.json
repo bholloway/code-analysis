@@ -1,0 +1,1590 @@
+[
+  {
+    "client": "ActivtyPreview/Screens/ActivityLoader",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/PrintOptionsLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetAllSchoolStudentList"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/QuickUploadLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UploadClassStudentTeacher"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/RolloverLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::RolloverService.GetProductSchoolRoll",
+      "PppLearning.SchoolAdmin.Service::RolloverService.PartialRollOver",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveAllStudent"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/SignInCardPrintLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolStudentListBySurname",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.ViewStudentSignInCardsByTeacher"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/SnapshotLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::ReportService.GetCurrentAcademicYearSchoolAwards",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetSchoolAwardsByDateRange"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/StudentRollLogic",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.MoveAllStudentsToClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudentFromClassroomList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudent",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UpdateAllStudents",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateClassroomAssignTeacher",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateStudentsAssignClassroomIDs",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UpdateUnassignedStudents",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveAllStudent"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/TeacherRollLogic",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateAllClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateAllTeachers",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateTeacherClassroom",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.AssignAllTeachersToClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateClassroomAssignTeacher",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UpdateAllTeachers",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveTeacher",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudentFromClassroomList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UpdateUnassignedTeachers"
+    ]
+  },
+  {
+    "client": "FaceMaker/facemaker/FaceEditor",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetUserProfileItems",
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.SaveAvatar"
+    ]
+  },
+  {
+    "client": "FaceMaker/facemaker/FaceMakerShop",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::ShopService.PurchaseItem",
+      "PppLearning.Mathletics.FaceMaker.Service::ShopService.GetUserAvailableShopItems"
+    ]
+  },
+  {
+    "client": "FaceMaker/modules/FaceMakerModule",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "MainApplication/Screens/ClassSelectorScreen",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.SetUserClassroom"
+    ]
+  },
+  {
+    "client": "MainApplication/Screens/ProductSelectorScreen",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.SetUserProfile",
+      "PppLearning.Core.Services::ProfileService.SetUserProduct"
+    ]
+  },
+  {
+    "client": "MainApplication/Screens/ProfileSelectorScreen",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.GetUserProfiles"
+    ]
+  },
+  {
+    "client": "MainApplication/activityModule/ActivityBox",
+    "webmethods": [
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetTestCollectionInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitTestCollectionAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitActivityAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteActivity",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteTestCollection",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.SetMyCharacter"
+    ]
+  },
+  {
+    "client": "MainApplication/services/ChallengeActivityService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.GetTestCollectionInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.SubmitTestCollectionAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.SubmitActivityAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.CompleteActivity",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeCurriculumService.CompleteTestCollection",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetSupport",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.SetMyCharacter"
+    ]
+  },
+  {
+    "client": "MainApplication/services/EventStatsService",
+    "webmethods": [
+      "PppLearning.EventStats.Service::EventStatsService.UpdateUserOnline",
+      "PppLearning.EventStats.Service::EventStatsService.GetEventStats"
+    ]
+  },
+  {
+    "client": "MainApplication/services/ProfileServices",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.SetUserProfile",
+      "PppLearning.Core.Services::ProfileService.ImpersonateParentUser",
+      "PppLearning.Core.Services::ProfileService.UpdateImpersonatedUser",
+      "PppLearning.Core.Services::ProfileService.UnImpersonateUser"
+    ]
+  },
+  {
+    "client": "MainApplication/services/StudentSchedulerService",
+    "webmethods": [
+      "PppLearning.Challenger.Student.Service::SchedulerService.GetUserScheduledChallengeList"
+    ]
+  },
+  {
+    "client": "ParentCentre/components/childLicencesBox",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentCentreService.GetHomeStudentCourseInfo",
+      "PppLearning.ParentCentre.Service::ParentCentreService.GetStudentWeeklyPoint"
+    ]
+  },
+  {
+    "client": "ParentCentre/renderers/ChildAccountBox",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentCentreService.GetHomeStudentCourseInfo"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCenterChildProfilePanel",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.ParentCentre.Service::CourseService.UpdateChildCourse",
+      "PppLearning.ParentCentre.Service::ParentCentreService.UpdateHomeStudentInfo",
+      "PppLearning.ParentCentre.Service::ParentCentreService.UpdateCountryFlag",
+      "PppLearning.ParentCentre.Service::TasksManagerService.CancelAllTasks"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCenterParentProfilePanel",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentCentreService.UpdateParentInfo"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCenterResultsManagerPanel",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::TasksManagerService.CancelAllTasks",
+      "PppLearning.ParentCentre.Service::TasksManagerService.AssignTasks",
+      "PppLearning.ParentCentre.Service::TasksManagerService.CancelTasks",
+      "PppLearning.ParentCentre.Service::TasksManagerService.GetAssignedTasks",
+      "PppLearning.ParentCentre.Service::TasksManagerService.GetUnitCourseResults"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCentreCertificateBrowser",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetAcademicYear",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetCertificate",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetTotalCertificate"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCentreMathCheckUpReport",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentCentreReportGeneratorService.GetSchoolStudentReport"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCentreMathWeeklySummaryView",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetAcademicYear",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetWeeks",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetWeeklyAwardCurriculumDetail"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCentreScreenLoader",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentCentreService.CheckEmailBounce",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.Core.Services::GlobalService.GetCountryList"
+    ]
+  },
+  {
+    "client": "ParentCentre/screens/ParentCentreSpelloWeeklySummaryView",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetAcademicYear",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetWeeks"
+    ]
+  },
+  {
+    "client": "ParentCentre/services/ParentCentreCourseService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry"
+    ]
+  },
+  {
+    "client": "ParentCentre/services/ParentCentreService",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "Purchasing/control/PurchasingControl",
+    "webmethods": [
+      "PppLearning.Purchasing.Service::PurchaseService.AuthenticateUserInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.GetGeoRelatedInfoByGeoCode",
+      "PppLearning.Purchasing.Service::PurchaseService.GetHomeAccount",
+      "PppLearning.Purchasing.Service::PurchaseService.AddHomeAccount",
+      "PppLearning.Purchasing.Service::PurchaseService.GetParentAuthToken",
+      "PppLearning.Purchasing.Service::PurchaseService.AddHomeStudent",
+      "PppLearning.Purchasing.Service::PurchaseService.AuthenticateUserLoginInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.IsChildLinkedWithParent",
+      "PppLearning.Purchasing.Service::PurchaseService.LinkHomeStudent",
+      "PppLearning.Purchasing.Service::PurchaseService.DeLinkHomeStudent",
+      "PppLearning.Purchasing.Service::PurchaseService.GetRegisterRelatedInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.GetPromotionInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.GetHomeTrialInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.CheckTeacherConfirmCode",
+      "PppLearning.Purchasing.Service::PurchaseService.GetYearGroupInfo",
+      "PppLearning.Purchasing.Service::PurchaseService.PurchaseBasket"
+    ]
+  },
+  {
+    "client": "SkillsManager/components/NewCurriculum",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetStateList",
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList"
+    ]
+  },
+  {
+    "client": "SkillsManager/screens/ActivityToSkillManager",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetActivityByNameCulture"
+    ]
+  },
+  {
+    "client": "SkillsManager/screens/CurriculumManager",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetStateList",
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList"
+    ]
+  },
+  {
+    "client": "SkillsManager/services/CurriculumMainService",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetCountryList",
+      "PppLearning.Core.Services::GlobalService.GetCultureList",
+      "PppLearning.Core.Services::GlobalService.GetPublishedYearList"
+    ]
+  },
+  {
+    "client": "TLFFaceMaker/facemaker/FaceEditor",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetUserProfileItems",
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.SaveAvatar"
+    ]
+  },
+  {
+    "client": "TLFFaceMaker/facemaker/FaceMakerShop",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::ShopService.PurchaseItem",
+      "PppLearning.Mathletics.FaceMaker.Service::ShopService.GetUserAvailableShopItems"
+    ]
+  },
+  {
+    "client": "TLFFaceMaker/modules/FaceMakerModule",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "UnitViewer/service/IWBServices",
+    "webmethods": [
+      "PppLearning.Core.Services::InstanceWorkbookService.GetInstanceWorkbookConfig"
+    ]
+  },
+  {
+    "client": "ActivityMasterCMS/ActivityMasterCMS_library/abstractViewControllers/AbstractLoginController",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "ActivityMasterCMS/ActivityMasterCMS_library/models/ActivityMasterListModel",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.UpdateActivityTopic"
+    ]
+  },
+  {
+    "client": "ActivityMasterCMS/ActivityMasterCMS_library/services/ActivityService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.UploadActivityGuide",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.DeployActivity",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.DuplicateActivity",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.UpdateActivityTopic",
+      "PppLearning.Core.Services::GlobalService.GetCountryList",
+      "PppLearning.Core.Services::GlobalService.GetCultureList",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivities",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetOrphanActivities",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityTopicOutcome",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityTopicOutcomeByActivityID",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityCultureMapping",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityMobileVersion",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.SetActivityItemVideos"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/comms/services/AdminCentreReportServices",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::ReportService.GetCertificateByClassTeacherDateRange"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/comms/services/SchoolAdminMainService",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolHeader",
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.SchoolAdmin.Service::LicenceService.GetSchoolLicenceSummaryInfo",
+      "PppLearning.SchoolAdmin.Service::LicenceService.GetLicenceDetail",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolLog",
+      "PppLearning.SchoolAdmin.Service::SchoolAdministrationService.SetSchoolResult",
+      "PppLearning.Core.Services::GlobalService.GetTeacherDiscountInfo"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/comms/services/SchoolCourseService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetStudentSpellodromeCourseItems"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/comms/services/SchoolRollService",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnenrolledStudents",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolStudentListBySurname",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetClassroomList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolTeacherList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnassignedStudents",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnassignedTeachers",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnassignedClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveClassroom",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.SchoolAdmin.Service::SchoolAdministrationService.UpdateSchoolPrivacySetting",
+      "PppLearning.SchoolAdmin.Service::SchoolAdministrationService.GetSchoolPrivacySetting",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/classesDataModel/ClassesData",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateClassroomAssignTeacher"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/classesFlowCtrl/ClassesEditCtrl",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudentFromClassroom",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateAllClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateClassroomAssignTeacher",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.AssignAllTeachersToClassrooms"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/classesFlowCtrl/ScreenFlowCtrl",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetAllSchoolStudentList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolStudentListBySurname",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveAllClassroom",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.UpdateClassroomList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CopyClassroom",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudentFromClassroom",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.MoveOrCopyStudentsToClass"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/coursesController/DefaultCourseController",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/logic/coursesController/GroupCourseController",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/presentation/teacher/AddTeacherPopUpBox",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.CreateAllTeachers",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.AssignAllTeachersToClassrooms"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/ClassSittingSummary",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.GetScheduledChallenge"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/ExamComponent",
+    "webmethods": [
+      "PppLearning.Challenger.Student.Service::ExaminerService.StartChallenge",
+      "PppLearning.Challenger.Student.Service::ExaminerService.FinaliseChallenge"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/ExamPrinter",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::CreatorService.GetChallengePreviewInfo"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/ResourceViewer",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::CreatorService.GetChallengePreviewInfo"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/SittingScheduler",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.GetScheduledChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.CancelScheduledChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.UpdateScheduledChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.ScheduleNewChallenge"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/component/StudentDetailsView",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::CreatorService.GetChallengePreviewInfo",
+      "PppLearning.Challenger.Teacher.Service::ResultService.GetScheduledChallengeUserInputCollection"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/screens/SchedulerScreen",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.SelectClassroom"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/ChallengerResultService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::ResultService.GetScheduledChallengeUserInputCollection"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/ExaminerService",
+    "webmethods": [
+      "PppLearning.Challenger.Student.Service::ExaminerService.StartChallenge",
+      "PppLearning.Challenger.Student.Service::ExaminerService.SubmitInput",
+      "PppLearning.Challenger.Student.Service::ExaminerService.FinaliseChallenge"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/StudentSchedulerService",
+    "webmethods": [
+      "PppLearning.Challenger.Student.Service::SchedulerService.GetUserScheduledChallengeList"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/StudentUserInfoService",
+    "webmethods": [
+      "PppLearning.Challenger.Student.Service::UserInfoService.GetSchedulerUserInfo"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/TeacherResultsService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::ResultService.GetScheduledChallengeUserInputCollection"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/TeacherSchedulerService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.ScheduleNewChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.GetScheduledChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.GetChallengeListByCountry",
+      "PppLearning.Challenger.Content.Service::CreatorService.GetChallengePreviewInfo",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.SelectClassroom",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.UpdateScheduledChallenge",
+      "PppLearning.Challenger.Teacher.Service::SchedulerService.CancelScheduledChallenge"
+    ]
+  },
+  {
+    "client": "Challenger/ChallengerUI/services/TeacherUserInfoService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::UserInfoService.GetSchedulerUserInfo"
+    ]
+  },
+  {
+    "client": "CommonLibrary/SignInPrintCardsLib/controllers/AdminDataController",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolStudentListBySurname",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.ViewStudentSignInCardsByTeacher"
+    ]
+  },
+  {
+    "client": "CommonLibrary/SignInPrintCardsLib/services/SchoolRollService",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolStudentListBySurname",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolTeacherList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetClassroomList"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/challengeTeacherComponents/Results",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetUnitResultsByClassroom"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/challengeTeacherComponents/teacherCertificates",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetUserPointsByClassroom"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/services/ChallengeResultsManagerService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ChallengeLiveMathleticsReportService.GetLiveMathleticsReportByClassroom",
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetChallengeListByPeriod",
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetChallengeClassroomCourseDetail"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/services/ChallengeUserProfileService",
+    "webmethods": [
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeUserProfileService.CheckStatus",
+      "PppLearning.Mathletics.StudentCentre.Service::ChallengeUserProfileService.GetCourseResults"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/services/ClassRollServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetAllSchoolStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetMyStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetSchoolClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnenrolledStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsUnassignedByClassForTeacher",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsInTeacherClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsInSchoolClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsByClassroomID",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsByGroupID",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddNewGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.UpdateGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.DeleteGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenGroups",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddStudentsToGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.RemoveStudentsFromClass"
+    ]
+  },
+  {
+    "client": "Events/PppLearning.Mathletics.Challenge.FlexUI/services/LiveSpelloChallengeService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Result.Service::ChallengeUserProfileService.GetChallengeHeader",
+      "PppLearning.LiveMathletics.Result.Service::ChallengeUserProfileService.GetChallengeUserPoints"
+    ]
+  },
+  {
+    "client": "LiveMathletics/IpadLiveMathsViewLibrary/services/LiveMathsServices",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetLiveMathsProfile",
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomGetMatch",
+      "PppLearning.LiveMathletics.Result.Service::FinaliseService.Finalise",
+      "PppLearning.LiveMathletics.Scoreboard.Service::ScoreBoardService.UpdateScoreBoard",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetUserGameOperationResult",
+      "PppLearning.EventStats.Service::EventStatsService.GetEventStats",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FamilyFindMatch",
+      "PppLearning.EventStats.Service::EventStatsService.GetOnlineUsersItems",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.RefreshData"
+    ]
+  },
+  {
+    "client": "LiveMathletics/WebLiveMathsViews/services/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "LiveMathletics/WebLiveMathsViews/services/WebLiveMathsServices",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetLiveMathsProfile",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FamilyFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FamilyGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FindMatch",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.RefreshData",
+      "PppLearning.LiveMathletics.Result.Service::FinaliseService.Finalise",
+      "PppLearning.LiveMathletics.Scoreboard.Service::ScoreBoardService.UpdateScoreBoard",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetUserGameOperationResult",
+      "PppLearning.EventStats.Service::EventStatsService.GetEventStats",
+      "PppLearning.EventStats.Service::EventStatsService.GetOnlineUsersItems"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/controllers/CourseActivitySuggestBoxController",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityByName",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetNewActivities"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/mediators/CourseCreatorMainMediator",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.UpdateCourseName"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/mediators/PublisherCourseMenuViewMediator",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.CancelCourse"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/mediators/TeacherCourseMenuViewMediator",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetNewActivitiesInCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.CancelCourse",
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/services/CourseCreatorService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityTopicOutcome",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetActivityCultures",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetNewActivitiesInCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.UpdateCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SubmitCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.UpdateDefaultCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SubmitDefaultCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.PublishDefaultCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetGroupItemsCourseUnit",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Core.Services::GlobalService.GetCountryList"
+    ]
+  },
+  {
+    "client": "MathleticsCourseCreator/MathleticsCourseCreator/services/MathleticsCourseServices",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetCourseCreatorCountryList",
+      "PppLearning.TeacherCentre.Service::CourseService.GetClassroomItems",
+      "PppLearning.TeacherCentre.Service::CourseService.SetCourseUnitExclusion",
+      "PppLearning.TeacherCentre.Service::CourseService.SetDefaultCourse",
+      "PppLearning.TeacherCentre.Service::CourseService.GetClassroomHasGame",
+      "PppLearning.TeacherCentre.Service::CourseService.GetClassroomHasTimeTable",
+      "PppLearning.TeacherCentre.Service::CourseService.SetClassroomHasGame",
+      "PppLearning.TeacherCentre.Service::CourseService.SetClassroomHasTimeTable"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentreLegacy/SpelloTester/Screens/LoginScreen",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.Login"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentreLegacy/SpelloTester/SpelloServices/SpelloServices",
+    "webmethods": [
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetCurrentWeekUserWordsSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetJerseyGallery",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetLiveSpellodromeReport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetUserScoresSummary"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentreLegacy/SpellodromeStudentCentre/GameServicesAll/AMFLiveSpelloServices",
+    "webmethods": [
+      "PppLearning.LiveSpellodrome.Result.Service::UserprofileService.GetHeader",
+      "PppLearning.LiveMathletics.Result.Service::FinaliseService.Finalise",
+      "PppLearning.LiveSpellodrome.Result.Service::ChallengeFinaliseService.FinaliseResult",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FindMatch",
+      "PppLearning.LiveMathletics.Scoreboard.Service::ScoreBoardService.UpdateScoreBoard"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentreLegacy/SpellodromeStudentCentre/GameServicesAll/AMFSpelloServices",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetUserScoresSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetJerseyGallery",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetLiveSpellodromeReport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetCurrentWeekUserWordsSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SaveChallengeAnswer",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsRevengeService.SubmitRevengeScore",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitWordsInPiecesGame",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SubmitChallengeAnswers",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitSupport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetPreviousWeekUserWordsSummary"
+    ]
+  },
+  {
+    "client": "TeacherCentre/Lessons/control/LessonAreaController",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.CreateLesson",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.UpdateLesson"
+    ]
+  },
+  {
+    "client": "TeacherCentre/Lessons/control/LessonExplorerController",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.CreateLesson",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.UpdateLesson",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.DeleteLesson",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.GetTeacherLessons"
+    ]
+  },
+  {
+    "client": "TeacherCentre/Lessons/control/SearchController",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LessonSearchService.SearchByContent",
+      "PppLearning.TeacherCentre.Service::LessonSearchService.SearchByCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool"
+    ]
+  },
+  {
+    "client": "TeacherCentre/Lessons/services/LessonPlannerDelegate",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetSchoolTeacherList",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.GetTeacherLessons",
+      "PppLearning.TeacherCentre.Service::LessonPlannerService.GetDefaultLessons",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticWorkbook/services/WorkbookService",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsClassRoll/MathClassRollView",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/controllers/CourseActivityDataController",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::ActivityService.GetActivityMobileReadiness"
+    ]
+  },
+  {
+    "client": "AdministrationCentre/presentation/classes/popupScreens/TeachersAssignmentDialog",
+    "webmethods": [
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.AssignAllTeachersToClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.RemoveStudentFromClassroom"
+    ]
+  },
+  {
+    "client": "LiveMathletics/IpadLiveMathsViewLibrary/controller/feed/LiveFeedController",
+    "webmethods": [
+      "PppLearning.Feeds.Service::SchoolFeedService.GetSchoolLiveFeed",
+      "PppLearning.Feeds.Service::SchoolFeedService.AddSchoolLiveFeedItem"
+    ]
+  },
+  {
+    "client": "MainApplication/activityModule/framework/logic/CFrameworkGameService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetTestCollectionInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitTestCollectionAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitActivityAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteActivity",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteTestCollection",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetSupport",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.SetMyCharacter"
+    ]
+  },
+  {
+    "client": "MainApplication/activityModule/framework/presentation/ActivityBox",
+    "webmethods": [
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetTestCollectionInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitTestCollectionAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitActivityAnswer",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteActivity",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.CompleteTestCollection",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.SetMyCharacter"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreMobile/application/services/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreMobile/application/services/ConfigurationService",
+    "webmethods": [
+      "PppLearning.MobileCentre.Service::CentreService.GetEntryPoints"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreWeb/application/services/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsLessonPlanner/MathleticsTeacherToolkit/services/ParentToolkitServices",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetFavourites",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetFavourites"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsLessonPlanner/MathleticsTeacherToolkit/services/TeacherToolkitServices",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetFavourites",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetFavourites"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/LiveMathReport/services/LiveMathReportServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.GetLiveMathleticsClassroomUserLevel",
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.SaveLiveMathleticsClassroomUserLevel",
+      "PppLearning.TeacherCentre.Service::LiveMathleticsReportService.GetLiveMathleticsReportByGroup"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsClassRoll/popupWindows/AddNewGroupPopUp",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddNewGroup"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsClassRoll/services/ClassRollServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetAllSchoolStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetMyStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetSchoolClassrooms",
+      "PppLearning.SchoolAdmin.Service::SchoolRollService.GetUnenrolledStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsUnassignedByClassForTeacher",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsInTeacherClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsInSchoolClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsByClassroomID",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetStudentsByGroupID",
+      "PppLearning.TeacherCentre.Service::ClassRollService.UpdateStudentsInfo",
+      "PppLearning.TeacherCentre.Service::ClassRollService.UpdateGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.DeleteGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenGroups",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddStudentsToGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.RemoveStudentsFromClass"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsMainPage/services/ChallengeService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ChallengeLiveMathleticsReportService.GetLiveMathleticsReportByClassroom",
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetChallengeListByPeriod",
+      "PppLearning.TeacherCentre.Service::ChallengeResultsManagerService.GetChallengeClassroomCourseDetail"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsMainPage/services/TeacherMainService",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader",
+      "PppLearning.Core.Services::GlobalService.GetTeacherDiscountInfo"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsMainPage/services/WeeklySummaryServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetCertificateByClassroom",
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetWeeklySummaryListByGroup",
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetWeeklyAwardListByGroup",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetWeeklyAwardDetail",
+      "PppLearning.ParentCentre.Service::ParentCentreWeeklySummaryService.GetCertificate"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsResultsManager/services/LiveMathReportServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.GetLiveMathleticsClassroomUserLevel",
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.SaveLiveMathleticsClassroomUserLevel"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsResultsManager/services/ResultsManagerService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.CancelGroupTasksByNumberOfDays",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.CancelGroupTasks",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.GetAllGroupTaskResults",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.SetGroupTaskVisibility",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.RemoveActivityFromStudents",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.AssignActivityToStudents",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.GetCourseResultsByGroup",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.GetUnitResultsByGroup",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.GetAssignedActivitiesByGroup",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.GetGroupTaskVisibility"
+    ]
+  },
+  {
+    "client": "TeacherCentre/TeacherToolkit/MathleticsTeacherToolkit/services/ParentToolkitServices",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetFavourites",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetFavourites"
+    ]
+  },
+  {
+    "client": "TeacherCentre/TeacherToolkit/MathleticsTeacherToolkit/services/TeacherToolkitServices",
+    "webmethods": [
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.GetFavourites",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetHistory",
+      "PppLearning.ParentCentre.Service::ParentToolkitService.SetFavourites"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsReports/LiveMathReport/services/LiveMathReportServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.GetLiveMathleticsClassroomUserLevel",
+      "PppLearning.TeacherCentre.Service::LiveMathleticsRestrictionService.SaveLiveMathleticsClassroomUserLevel",
+      "PppLearning.TeacherCentre.Service::LiveMathleticsReportService.GetLiveMathleticsReportByGroup"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsReports/ReportGenerator/services/MathleticsReportGenServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ReportGeneratorService.GetStudentListByGroup",
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetStudentReport",
+      "PppLearning.TeacherCentre.Service::ReportGeneratorService.GetAllStudentReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MathleticsTeacherCentre/MathleticsReports/WeeklySummaryReport/services/WeeklySummaryServices",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetCertificateByClassroom",
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetWeeklySummaryListByGroup",
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetWeeklyAwardListByGroup",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetWeeklyAwardDetail"
+    ]
+  },
+  {
+    "client": "ActivityMasterCMS/ActivityDeploymentTool/com/ppplearning/activitydeployment/controllers/AbstractLoginDesktopController",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AS3 Library/src/FlexActivities/framework/logic/AMFSpelloServices",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetUserScoresSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetJerseyGallery",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetLiveSpellodromeReport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetCurrentWeekUserWordsSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SaveChallengeAnswer",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsRevengeService.SubmitRevengeScore",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitWordsInPiecesGame",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SubmitChallengeAnswers",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitSupport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetPreviousWeekUserWordsSummary"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AS3 Library/src/FlexActivities/framework/logic/CFrameworkGameService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitActivityAnswer"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AS3 Library/src/FlexGames/framework/logic/AMFSpelloServices",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetUserScoresSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetJerseyGallery",
+      "PppLearning.SchoolAdmin.Service::ReportService.GetLiveSpellodromeReport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetCurrentWeekUserWordsSummary",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SaveChallengeAnswer",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsRevengeService.SubmitRevengeScore",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitWordsInPiecesGame",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeCyclobotsChallengeService.SubmitChallengeAnswers",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.SubmitSupport",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeStudentCentreService.GetPreviousWeekUserWordsSummary"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AS3 Library/src/FlexGames/framework/logic/CFrameworkGameService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.GetActivityInfo",
+      "PppLearning.Mathletics.StudentCentre.Service::CurriculumService.SubmitActivityAnswer"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AuthenticationForMainApplication/com/ppplearning/authentication/services/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsCommon/com/ppplearning/livemaths/common/MainContext",
+    "webmethods": [
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.JoinGame"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsMobileLib/com/ppplearning/livemaths/services/EventStatsService",
+    "webmethods": [
+      "PppLearning.EventStats.Service::EventStatsService.GetSchoolUsersStatus"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsMobileLib/com/ppplearning/livemaths/services/InventoryMatchService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.InviteOpponents",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.PollInvitation",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.PollGame",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.JoinGame",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.RevokeInvitation"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsMobileLib/com/ppplearning/livemaths/services/LobbyMatchService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.InventoryMatch.Service::LobbyService.GetCreatedMatches"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsMobileLib/com/ppplearning/livemaths/services/StudentService",
+    "webmethods": [
+      "PppLearning.EventStats.UserService::StudentService.GetSchoolUsers",
+      "PppLearning.EventStats.UserService::StudentService.GetSchoolUsersByProfile"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsWebLib/com/ppplearning/livemaths/services/EventStatsService",
+    "webmethods": [
+      "PppLearning.EventStats.Service::EventStatsService.GetSchoolUsersStatus"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsWebLib/com/ppplearning/livemaths/services/InventoryMatchService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.InviteOpponents",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.PollInvitation",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.PollGame",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.JoinGame",
+      "PppLearning.LiveMathletics.InventoryMatch.Service::GameService.RevokeInvitation"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsWebLib/com/ppplearning/livemaths/services/LobbyMatchService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.InventoryMatch.Service::LobbyService.GetCreatedMatches"
+    ]
+  },
+  {
+    "client": "LiveMathletics/LiveMathsWebLib/com/ppplearning/livemaths/services/StudentService",
+    "webmethods": [
+      "PppLearning.EventStats.UserService::StudentService.GetSchoolUsers",
+      "PppLearning.EventStats.UserService::StudentService.GetSchoolUsersByProfile"
+    ]
+  },
+  {
+    "client": "LiveMathletics/WhosOnlineSplashTestHarness/com/ppplearning/whosonline/services/MobileLiveMathsServices",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetLiveMathsProfile",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FamilyFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FamilyGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FindMatch",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.RefreshData",
+      "PppLearning.LiveMathletics.Result.Service::FinaliseService.Finalise",
+      "PppLearning.LiveMathletics.Scoreboard.Service::ScoreBoardService.UpdateScoreBoard",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.GetUserGameOperationResult",
+      "PppLearning.EventStats.Service::EventStatsService.GetEventStats",
+      "PppLearning.EventStats.Service::EventStatsService.GetOnlineUsersItems"
+    ]
+  },
+  {
+    "client": "MathleticsStudentCentre/StudentCenterCommon/com/ppplearning/common/services/ActivityService",
+    "webmethods": [
+      "PppLearning.Workbook.Service::BookService.GetActivityWorkbooks",
+      "PppLearning.Workbook.Service::BookService.GetCourseWorkbooks",
+      "PppLearning.Workbook.Service::BookService.GetSecondarySeries",
+      "PppLearning.Workbook.Service::BookService.GetStudentBooks"
+    ]
+  },
+  {
+    "client": "MathleticsStudentCentre/StudentCenterCommon/com/ppplearning/common/services/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "MathleticsStudentCentre/StudentCenterCommon/com/ppplearning/common/services/GlobalService",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetAcademicYear"
+    ]
+  },
+  {
+    "client": "MathleticsStudentCentre/StudentCenterCommon/com/ppplearning/common/services/UserProfileService",
+    "webmethods": [
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.GetInitialModuleLoaderData",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.GetInitialisationData",
+      "PppLearning.LiveMathletics.Result.Service::UserProfileService.RefreshData",
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetCertificateByAcademicYear",
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.ChangeProfileSettings"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentreLegacy/SpellodromeStudentCentre/modules/StudentCentreSpellodrome/model/services/CourseCreatorService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetStudentSpellodromeCourseItems"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/ClassRollService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetMyStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddNewGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.DeleteGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.UpdateGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.RemoveStudentsFromClass",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetAllSchoolStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenGroups",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddStudentsToGroup"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/CourseCreatorService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SetNewSpellodromeWord",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.CancelCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SubmitCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.UpdateCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetStudentSpellodromeCourseItems",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetItemListByName"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/CourseService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/GlobalService",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.Core.Services::GlobalService.GetTeacherDiscountInfo"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/HeaderService",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/ProfileService",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.UpdateImpersonatedUser"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/SpellodromeWeeklySummaryService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::SpellodromeReportService.GetWeeklySummaryByStudent",
+      "PppLearning.TeacherCentre.Service::SpellodromeReportService.GetWeeklySummaryByClass"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/TeacherCentreService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::CourseService.GetClassroomItems",
+      "PppLearning.TeacherCentre.Service::CourseService.SetCourseUnitExclusion",
+      "PppLearning.TeacherCentre.Service::CourseService.SetDefaultCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.TeacherCentre.Service::CourseService.GetWordListHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentre/modules/TeacherCentreSpellodrome/model/services/WeeklySummaryService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetCertificateByClassroom"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/ClassRollService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetMyStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddNewGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.DeleteGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.UpdateGroup",
+      "PppLearning.TeacherCentre.Service::ClassRollService.RemoveStudentsFromClass",
+      "PppLearning.TeacherCentre.Service::ClassRollService.GetAllSchoolStudents",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenGroups",
+      "PppLearning.TeacherCentre.Service::ClassRollService.MoveStudentsBetweenClasses",
+      "PppLearning.TeacherCentre.Service::ClassRollService.AddStudentsToGroup"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/CourseCreatorService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SetNewSpellodromeWord",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.CancelCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SubmitCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.UpdateCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetStudentSpellodromeCourseItems",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetItemListByName"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/CourseService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/GlobalService",
+    "webmethods": [
+      "PppLearning.Core.Services::GlobalService.GetYearGroupList",
+      "PppLearning.Core.Services::GlobalService.GetTeacherDiscountInfo"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/HeaderService",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/ProfileService",
+    "webmethods": [
+      "PppLearning.Core.Services::ProfileService.UpdateImpersonatedUser"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/SpellodromeWeeklySummaryService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::SpellodromeReportService.GetWeeklySummaryByStudent",
+      "PppLearning.TeacherCentre.Service::SpellodromeReportService.GetWeeklySummaryByClass"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/TeacherCentreService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::CourseService.GetClassroomItems",
+      "PppLearning.TeacherCentre.Service::CourseService.SetCourseUnitExclusion",
+      "PppLearning.TeacherCentre.Service::CourseService.SetDefaultCourse",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.GetDefaulCourseCountry",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListBySchool",
+      "PppLearning.Mathletics.CourseCreator.Service::CourseCreatorService.SearchCourseListByCountry",
+      "PppLearning.TeacherCentre.Service::CourseService.GetWordListHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeTeacherCentre/SpellodromeTeacherCentreLib/modules/TeacherCentreSpellodrome/model/services/WeeklySummaryService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::WeeklySummaryService.GetCertificateByClassroom"
+    ]
+  },
+  {
+    "client": "Challenger/AssessmentViewLibrary/com/ppplearning/assessments/publisher/services/AssessmentPublisherService",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::ContentManagementService.GetAllAssessmentList"
+    ]
+  },
+  {
+    "client": "Challenger/AssessmentViewLibrary/com/ppplearning/assessments/publisher/services/LivePublisherService",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::ContentManagementService.GetAllAssessmentList"
+    ]
+  },
+  {
+    "client": "Challenger/AssessmentViewLibrary/com/ppplearning/assessments/publisher/services/PublisherService",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::ContentManagementService.GetAllAssessmentList"
+    ]
+  },
+  {
+    "client": "Challenger/AssessmentViewLibrary/com/ppplearning/assessments/publisher/services/QaPublisherService",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::ContentManagementService.GetAllAssessmentList"
+    ]
+  },
+  {
+    "client": "Challenger/AssessmentViewLibrary/com/ppplearning/assessments/publisher/views/AssessmentInformationView",
+    "webmethods": [
+      "PppLearning.Challenger.Content.Service::ContentManagementService.AddAssessment",
+      "PppLearning.Challenger.Content.Service::ContentManagementService.UpdateAssessmentMetaData",
+      "PppLearning.Challenger.Content.Service::ContentManagementService.UpdateAssessmentAnswer",
+      "PppLearning.Challenger.Content.Service::ContentManagementService.UpdateAssessmentContent"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/CertificateService",
+    "webmethods": [
+      "PppLearning.Spellodrome.StudentCentre.Service::SpellodromeJerseyGalleryService.GetJerseyGallery"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/FinaliseLiveSpellodromeService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Result.Service::FinaliseService.Finalise"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/HeaderService",
+    "webmethods": [
+      "PppLearning.Mathletics.FaceMaker.Service::FaceMakerService.GetHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/LiveFeedService",
+    "webmethods": [
+      "PppLearning.Feeds.Service::SchoolFeedService.GetSchoolLiveFeed"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/LiveSpellodromeMatchService",
+    "webmethods": [
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.FindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomFindMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.ClassroomGetMatch",
+      "PppLearning.Mathletics.MatchEngine.Service::MatchService.SchoolFindMatch"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/LiveSpellodromeScoreboardService",
+    "webmethods": [
+      "PppLearning.LiveMathletics.Scoreboard.Service::ScoreBoardService.UpdateScoreBoard"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/LiveSpellodromeUserProfileService",
+    "webmethods": [
+      "PppLearning.LiveSpellodrome.Result.Service::UserprofileService.GetHeader"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/MissionService",
+    "webmethods": [
+      "PppLearning.Mathletics.CourseCreator.Service::SpellodromeMissionService.GetCourseTiles"
+    ]
+  },
+  {
+    "client": "SpellodromeStudentCentre/SpellodromeStudentCentreLib/lib/modules/StudentCentreSpellodrome/model/services/UserProfileService",
+    "webmethods": [
+      "PppLearning.Mathletics.StudentCentre.Service::UserProfileService.ChangeProfileSettings"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcResultsWeb/test/flex/com/ppplearning/mtcresults/BackendCharacterisationTest",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin",
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetAssessmentAverage",
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetStudentReport"
+    ]
+  },
+  {
+    "client": "CommonLibrary/AwesomeCore/test/flex/com/ppplearning/service/flourine/FluorineServiceTest",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcCommonLib/com/ppplearning/authentication/command/AuthenticationService",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsMob/test/flex/com/ppplearning/mtcreports/mob/GetEntryPointsServiceTest",
+    "webmethods": [
+      "PppLearning.MobileCentre.Service::CentreService.GetEntryPoints"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsMob/com/ppplearning/mtcreports/mob/command/GetEntryPoints",
+    "webmethods": [
+      "PppLearning.MobileCentre.Service::CentreService.GetEntryPoints"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsMob/com/ppplearning/mtcreports/mob/command/GetUserAuth",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.MobileFastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsMob/test/flex/com/ppplearning/mtcreports/mob/service/AuthenticationServiceTest",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.MobileFastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcResultsWeb/com/ppplearning/mtcresults/web/mock/MockShellMediator",
+    "webmethods": [
+      "PppLearning.Security.AuthenticationService::AuthenticationService.FastLogin"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/activity/GetActivityAttemptsReport",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetActivityAttemptsReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/activity/GetAssignActivityToStudents",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.AssignActivityToStudents"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/activity/GetUnassignActivityToStudents",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.RemoveActivityFromStudents"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/allclassroom/GetAllClassroomReport",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetAllClassroomReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/classroom/GetClassroomReport",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetClassroomReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/navigation/GetInitialData",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetInitialData"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/school/GetSchoolReport",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetSchoolReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/student/GetStudentReport",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetStudentReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/video/AddReportUserTrackingLog",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.AddReportUserTrackingLog"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsLib/com/ppplearning/mtcreports/lib/command/yeargroup/GetYearGroupReport",
+    "webmethods": [
+      "PppLearning.ReportManager.Service::MathleticsReportService.GetYearGroupReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsWeb/com/ppplearning/mtcreports/web/command/print/GenerateAllClassroomsReport",
+    "webmethods": [
+      "PppLearning.ReportManager.ViewerService::MathleticsReportViewerService.GenerateAllClassroomReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsWeb/com/ppplearning/mtcreports/web/command/print/GenerateClassroomReport",
+    "webmethods": [
+      "PppLearning.ReportManager.ViewerService::MathleticsReportViewerService.GenerateClassroomReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsWeb/com/ppplearning/mtcreports/web/command/print/GenerateSchoolReport",
+    "webmethods": [
+      "PppLearning.ReportManager.ViewerService::MathleticsReportViewerService.GenerateSchoolReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsWeb/com/ppplearning/mtcreports/web/command/print/GenerateStudentReport",
+    "webmethods": [
+      "PppLearning.ReportManager.ViewerService::MathleticsReportViewerService.GenerateStudentReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcReportsWeb/com/ppplearning/mtcreports/web/command/print/GenerateYearGroupReport",
+    "webmethods": [
+      "PppLearning.ReportManager.ViewerService::MathleticsReportViewerService.GenerateYearGroupReport"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcResultsWeb/com/ppplearning/mtcresults/web/markbook/service/AssessmentAverageService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetAssessmentAverage"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcResultsWeb/com/ppplearning/mtcresults/web/report/service/ActivityAssignService",
+    "webmethods": [
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.AssignActivityToStudents",
+      "PppLearning.TeacherCentre.Service::ResultsManagerService.RemoveActivityFromStudents"
+    ]
+  },
+  {
+    "client": "TeacherCentre/MtcResultsWeb/com/ppplearning/mtcresults/web/report/service/ReportService",
+    "webmethods": [
+      "PppLearning.Challenger.Teacher.Service::AssessmentService.GetStudentReport"
+    ]
+  }
+]

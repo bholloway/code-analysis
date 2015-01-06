@@ -1,0 +1,84 @@
+#!/usr/bin/env node
+
+const BASE_PATH        = resolveRelativePath(process.argv[process.argv.length - 4]);
+const JSON_FILE        = resolveRelativePath(process.argv[process.argv.length - 3]);
+const CLIENT_SUFFIXES  = new RegExp(process.argv[process.argv.length - 2], 'i');
+const SERVICE_SUFFIXES = new RegExp(process.argv[process.argv.length - 1], 'i');
+
+const CLIENT_FILES     = /^.*[\\/]ClientApplications[\\/](.*)[\\\/]src(?:[\\/]main[\\/]flex)?[\\/]([\\/\w-]+)\.\w+$/i;
+
+var fs   = require('fs');
+var json = require('format-json');
+
+var listFiles        = require('./list-files');
+var objectToString   = require('./object-to-string');
+var webmethodMatcher = require('./webmethod-matcher');
+var findInFiles      = require('./find-in-files')
+
+function resolveRelativePath(path) {
+  return String(path)
+    .replace(/^(\.{1})[\\/]/, process.cwd() + "/")      // .\path
+    .replace(/^(\.{2})[\\/]/, process.cwd() + "/$1/");  // ..\path
+}
+
+var unused      = [ ];
+var results     = [ ];
+var lookup      = { };
+
+var requests    = [ ];
+var definitions = [ ];
+var services    = [ ];
+
+listFiles(BASE_PATH, SERVICE_SUFFIXES)
+  .pipe(webmethodMatcher())
+  .on('data', function(data) {
+    var char = String(data.request).charAt(0);
+    if (char === char.toUpperCase()) {
+      requests.push(data.request);
+      definitions.push(data.definition);
+      services.push(data.namespace + "::" + data.definition + "." + data.method);
+    }
+  })
+  .on('end', next);
+
+function next() {
+  var unused = services.concat();
+  var client = listFiles(BASE_PATH, CLIENT_SUFFIXES)
+  client
+    .pipe(findInFiles(CLIENT_FILES, new RegExp("new\\s+(" + requests.join("|") + ")")))
+    .on('data', onRequestMatch)
+    .on('end', save);
+}
+
+function onRequestMatch(data) {
+  var request = data.match[1];
+  var i       = requests.indexOf(request);
+  var service = services[i];
+  var j       = (data.file in lookup) ? lookup[data.file] : -1;
+
+  // mark the service as being used
+  unused[i] = null;
+
+  // record usage against this client file
+  if (j < 0) {
+    lookup[data.file] = results.length;
+    results.push({
+      client:     data.file,
+      webmethods: [ service ]
+    });
+  } else {
+    var list = results[j].webmethods;
+    if (list.indexOf(service) < 0) {
+      list.push(service);
+    }
+  }
+}
+
+function save() {
+  var filtered = unused.filter(function(value) {
+    return (value !== null);
+  });
+  fs.writeFile(JSON_FILE, json.plain(results));
+  process.stdout.write('The number of unused webmethods is ' + filtered.length + '\n');
+  process.stdout.write(filtered.join('\n'));
+}

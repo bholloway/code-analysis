@@ -1,0 +1,12 @@
+{
+  "name": "code-analysis",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/main"
+  },
+  "dependencies": {
+    "debug": "~0.7.4",
+    "format-json": "*"
+  }
+}
