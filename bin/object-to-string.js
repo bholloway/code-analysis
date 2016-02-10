@@ -1,3 +1,5 @@
+"use strict";
+
 var stream = require('stream');
 var json   = require('format-json');
 
@@ -13,7 +15,7 @@ function objectToString()
   transform._transform = function(chunk, encoding, done) {
     this.push(json.plain(chunk), '\n');
     done();
-  }
+  };
   return transform;
 }
 

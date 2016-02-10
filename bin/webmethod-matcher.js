@@ -1,3 +1,5 @@
+"use strict";
+
 var fs     = require('fs');
 var stream = require('stream');
 
@@ -14,7 +16,7 @@ function webmethodMatcher()
     var transform = this;
 
     // process file
-    fileName = String(chunk);
+    var fileName = String(chunk);
     fs.readFile(fileName, function (err, data) {
       const IDLE        = null;
       const NAMESPACE   = /^\s*namespace\s+([\w\.]+)\s*(?:\{\s*)?$/              // namespace Some.Name.Space [{]
@@ -73,11 +75,11 @@ function webmethodMatcher()
               });
               break;
           }
-        };
+        }
         done();
       }
     });
-  }
+  };
   return transform;
 }
 

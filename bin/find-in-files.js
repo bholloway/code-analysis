@@ -1,3 +1,5 @@
+"use strict";
+
 var fs     = require('fs');
 var stream = require('stream');
 
@@ -49,7 +51,7 @@ function findInFiles(filePattern, findPattern)
     } else {
       done();
     }
-  }
+  };
   return transform;
 }
 

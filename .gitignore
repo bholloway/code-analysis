@@ -1,3 +1,4 @@
-reference/**
-node_modules/**
+/.idea
+/reference
+/node_modules
 *.zip

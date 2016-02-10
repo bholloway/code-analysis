@@ -1,7 +1,6 @@
+"use strict";
+
 var fs     = require('fs');
-var fs     = require('fs');
-var fs     = require('fs');
-var path   = require('path');
 var stream = require('stream');
 
 /**
@@ -53,7 +52,8 @@ function listFiles(baseDirectory, namePattern)
         return results.push(null);
       }
     })();
-  }
+  };
   return results;
 }
+
 module.exports = listFiles;

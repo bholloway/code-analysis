@@ -1,6 +1,7 @@
-"use strict";
+/* globals d3, _ */
 
 (function(element) {
+  "use strict";
 
   d3.selection.prototype.moveToFront = function() {
     return this.each(function(){
@@ -17,9 +18,9 @@
       } else {
         isFound = isFound || (arg === candidate);
       }
-    })(this)
+    })(this);
     return isFound;
-  }
+  };
 
   var WIDTH     = element.clientWidth;
   var HEIGHT    = element.clientHeight;
@@ -81,7 +82,7 @@
     .startAngle(0)
     .endAngle(2 * Math.PI)
     .innerRadius(0)
-    .outerRadius(BOUND * 0.5)
+    .outerRadius(BOUND * 0.5);
   var matt = chart
     .append("path")
     .attr("d", circle)
@@ -173,7 +174,7 @@
       var node = { name: name, children: children };
       children && children.forEach(function (child) {
         child.parent = node;
-      })
+      });
       return node;
     });
     var root = getNode('root', [
@@ -183,12 +184,12 @@
 
     function splitFilenames(name, root) {
       var split   = name.split(/([\\/\.\:]+)/g);
-      var subtree = (split.length == 1) ? root : splitFilenames(split.slice(0, -2).join(""), root);
+      var subtree = (split.length === 1) ? root : splitFilenames(split.slice(0, -2).join(""), root);
       var node    = getNode(name);
       var list    = subtree.children = subtree.children || [ ];
       node.parent = subtree;
       if (list.indexOf(node) < 0) {
-        list.push(node)
+        list.push(node);
       }
       return node;
     }
@@ -196,12 +197,12 @@
     list.forEach(function (item) {
       splitFilenames(item.client, getNode('client'));
       item.webmethods && item.webmethods.forEach(function (webmethod) {
-        splitFilenames(webmethod, getNode('webmethod'))
+        splitFilenames(webmethod, getNode('webmethod'));
       });
     });
 
     (function collapseUnaryChildren(node) {
-      while ((node.children) && (node.children.length == 1)) {
+      while ((node.children) && (node.children.length === 1)) {
         var child = node.children[0];
         node.name     = child.name;
         node.children = child.children;
@@ -249,7 +250,7 @@
         results.push(current);
         current = current.parent;
       }
-    };
+    }
     return results;
   }
 
@@ -265,7 +266,7 @@
       } else {
         results.push(node);
       }
-    };
+    }
     return results;
   }
 
@@ -301,6 +302,7 @@
   var isOverTimeout;
 
   function chartOver() {
+    /* jshint validthis:true */
     clearTimeout(isOverTimeout);
     if (!(isOverChart) && (rotated.contains(this))) {
       isOverChart = true;
@@ -314,6 +316,7 @@
   }
 
   function chartLeave() {
+    /* jshint validthis:true */
     if ((isOverChart) && (rotated.contains(this))) {
       isOverChart = false;
       clearTimeout(isOverTimeout);
@@ -347,6 +350,7 @@
   var linkPathsHighlight;
 
   function sunburstOver(d) {
+    /* jshint validthis:true */
     sunburstPathsOver = d3.select(this);
     highlightSunburst(sunburstPathsOver);
     highlightInfo.text(d.name);
@@ -377,8 +381,8 @@
     // links
     linkPathsHighlight && fadeLinks(linkPathsHighlight);
     linkPathsHighlight = linkPaths.filter(function(d) {
-      return ((leafAncestorNames.indexOf(d.source.name) >= 0)
-        || (leafAncestorNames.indexOf(d.target.name) >= 0));
+      return ((leafAncestorNames.indexOf(d.source.name) >= 0) ||
+        (leafAncestorNames.indexOf(d.target.name) >= 0));
     });
     highlightLinks(linkPathsHighlight);
     
@@ -444,10 +448,10 @@
               .data(dataSets[i])
               .enter()
               .append("li")
-              .text(function (d) { return d });
+              .text(function (d) { return d; });
           }
         });
-      }, 0)
+      }, 0);
     })(arguments);
   }
 
